@@ -1,0 +1,21 @@
+{
+  "name": "creatorclean",
+  "version": "1.0.0",
+  "description": "用于清理cocos creator 2.1.2项目未被引用的图片资源，减小包体。",
+  "main": "CreaterClean.js",
+  "scripts": {
+    "normal:build": "tsc",
+    "normal:start": "node ./build/CreaterClean.js"
+  },
+  "keywords": [
+    "Cocos",
+    "Creator",
+    "Cleaner",
+    "V2.1.2"
+  ],
+  "author": "HarryNR",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.14.20"
+  }
+}
